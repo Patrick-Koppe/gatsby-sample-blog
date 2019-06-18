@@ -41,4 +41,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  //__experimentalThemes: ['gatsby-theme-docz']
 }

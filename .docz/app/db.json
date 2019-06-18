@@ -1,0 +1,229 @@
+{
+  "config": {
+    "title": "Gatsby Starter Default",
+    "description": "A simple starter to get up and developing quickly with Gatsby",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "props": [
+    {
+      "key": "src/layout/Footer.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Footer",
+          "methods": [],
+          "actualName": "Footer"
+        }
+      ]
+    },
+    {
+      "key": "src/layout/Header.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Header",
+          "methods": [],
+          "actualName": "Header",
+          "props": {
+            "siteTitle": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "``",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/layout/Layout.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Layout",
+          "methods": [],
+          "actualName": "Layout",
+          "props": {
+            "children": {
+              "type": {
+                "name": "node"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "key": "src/pages/index.mdx",
+      "value": {
+        "name": "Hello world",
+        "id": "522b7407e210088f3588b943aec44115",
+        "filepath": "src/pages/index.mdx",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/pages/index.mdx",
+        "slug": "src-pages-index",
+        "route": "/src-pages-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "hello-world",
+            "depth": 1,
+            "value": "Hello world"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/blog/2019-06-10-Google-Tag-Manager.md",
+      "value": {
+        "author": "Patrick",
+        "date": "2019-06-10",
+        "path": "/tagmanager",
+        "title": "Google Tag Manager",
+        "tags": [
+          "01",
+          "02",
+          "03"
+        ],
+        "id": "113fd61c4e6c08c4ae745ea994f5051c",
+        "filepath": "src/pages/blog/2019-06-10-Google-Tag-Manager.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/pages/blog/2019-06-10-Google-Tag-Manager.md",
+        "slug": "src-pages-blog-2019-06-10-google-tag-manager",
+        "route": "/src-pages-blog-2019-06-10-google-tag-manager",
+        "name": "2019 06 10 google tag manager",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "h2",
+            "depth": 2,
+            "value": "h2"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/blog/2019-06-10-ipsum.md",
+      "value": {
+        "author": "Patrick",
+        "date": "2019-06-10",
+        "path": "/sistrix",
+        "tags": [
+          "01",
+          "02",
+          "03"
+        ],
+        "title": "Sistrix",
+        "id": "5f966a4759e778530c0390f4cad10487",
+        "filepath": "src/pages/blog/2019-06-10-ipsum.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/pages/blog/2019-06-10-ipsum.md",
+        "slug": "src-pages-blog-2019-06-10-ipsum",
+        "route": "/src-pages-blog-2019-06-10-ipsum",
+        "name": "2019 06 10 ipsum",
+        "menu": "",
+        "headings": []
+      }
+    },
+    {
+      "key": "src/pages/blog/2019-06-10-lorem.md",
+      "value": {
+        "author": "Patrick",
+        "date": "2019-06-10",
+        "path": "/sistrix2",
+        "tags": [
+          "01",
+          "02",
+          "03"
+        ],
+        "title": "Sistrix",
+        "id": "659ae6417d6780cdfe29ed607f32524d",
+        "filepath": "src/pages/blog/2019-06-10-lorem.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/pages/blog/2019-06-10-lorem.md",
+        "slug": "src-pages-blog-2019-06-10-lorem",
+        "route": "/src-pages-blog-2019-06-10-lorem",
+        "name": "2019 06 10 lorem",
+        "menu": "",
+        "headings": []
+      }
+    },
+    {
+      "key": "src/pages/blog/2019-06-10-loremipsum.md",
+      "value": {
+        "author": "Patrick",
+        "date": "2019-06-10",
+        "path": "/tagmanager2",
+        "tags": [
+          "01",
+          "02",
+          "03"
+        ],
+        "title": "Google Tag Manager",
+        "id": "f5fc814b4f3f1ac23ea1fc51ad81c0fc",
+        "filepath": "src/pages/blog/2019-06-10-loremipsum.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/pages/blog/2019-06-10-loremipsum.md",
+        "slug": "src-pages-blog-2019-06-10-loremipsum",
+        "route": "/src-pages-blog-2019-06-10-loremipsum",
+        "name": "2019 06 10 loremipsum",
+        "menu": "",
+        "headings": []
+      }
+    },
+    {
+      "key": "src/pages/blog/2019-06-17-Sistrix.md",
+      "value": {
+        "author": "Patrick",
+        "date": "2019-06-10",
+        "path": "/sistrix3",
+        "tags": [
+          "01",
+          "02",
+          "03"
+        ],
+        "title": "Sistrix",
+        "id": "9994fe1616aa16001d7c3b44f8ceeab0",
+        "filepath": "src/pages/blog/2019-06-17-Sistrix.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/pages/blog/2019-06-17-Sistrix.md",
+        "slug": "src-pages-blog-2019-06-17-sistrix",
+        "route": "/src-pages-blog-2019-06-17-sistrix",
+        "name": "2019 06 17 sistrix",
+        "menu": "",
+        "headings": []
+      }
+    },
+    {
+      "key": "src/pages/blog/2019-06-17-loremipsum2.md",
+      "value": {
+        "author": "Patrick",
+        "date": "2019-06-10",
+        "path": "/tagmanager3",
+        "tags": [
+          "01",
+          "02",
+          "03"
+        ],
+        "title": "Sistrix",
+        "id": "e7715ad53d8bcf80f213238efdbd4174",
+        "filepath": "src/pages/blog/2019-06-17-loremipsum2.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/pages/blog/2019-06-17-loremipsum2.md",
+        "slug": "src-pages-blog-2019-06-17-loremipsum2",
+        "route": "/src-pages-blog-2019-06-17-loremipsum2",
+        "name": "2019 06 17 loremipsum2",
+        "menu": "",
+        "headings": []
+      }
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from '@emotion/styled'
 
+
 const StyledLinkAsBtn = styled(
     props => <Link {...props} />,
     )`
