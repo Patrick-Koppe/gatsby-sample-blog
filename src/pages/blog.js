@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../layout/Layout"
 import SEO from "../components/seo"
 import Link from "gatsby-link"
 import { graphql } from 'gatsby'
@@ -27,15 +27,15 @@ export const pageQuery = graphql`
     query BlogIndexQuery {
         allMarkdownRemark {
             edges {
-            node {
-                id
-                frontmatter {
-                path
-                title
-                date
-                author
+                node {
+                    id
+                    frontmatter {
+                        path
+                        title
+                        date
+                        author
+                    }
                 }
-            }
             }
         }
     }

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Layout from "../components/layout"
+import Layout from "../layout/Layout"
 import SEO from "../components/seo"
 import { graphql } from 'gatsby'
 
@@ -11,7 +11,7 @@ export default function Template({data}) {
         <Layout>
                 <SEO title="Home" />
             <div>
-                <Link to="/blog">Go Back</Link>
+                <Link to="/">Go Back</Link>
                 <hr />
                 <h1>{post.frontmatter.title}</h1>
                 <h4>Posted by {post.frontmatter.author} on {post.frontmatter.date}</h4>
@@ -22,7 +22,8 @@ export default function Template({data}) {
 }
 
 export const postQuery = graphql`
-    query BlogPostByPath($path: String!) {
+    query 
+    BlogPostByPath($path: String!) {
         markdownRemark(frontmatter: { path: { eq: $path }}) {
             html
             frontmatter {
